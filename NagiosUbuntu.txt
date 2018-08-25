@@ -7,7 +7,6 @@ usermod -a -G nagcmd nagios
 apt-get install build-essential openssl libssl-dev xinetd apache2-utils apache2 unzip
 apt-get install php libapache2-mod-php
 
-
 cd ~
 curl -L -O https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.4.2.tar.gz
 ./configure --with-nagios-group=nagios --with-command-group=nagcmd 
@@ -22,26 +21,23 @@ sudo /usr/bin/install -c -m 644 sample-config/httpd.conf /etc/apache2/sites-avai
 
 a2ensite nagios
 
-sudo usermod -G nagcmd www-data
+usermod -G nagcmd www-data
+a2enmod rewrite
+a2enmod cgi
 
-
-sudo a2enmod rewrite
-sudo a2enmod cgi
-
-
-sudo htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
+htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
 htpasswd -b -c /usr/local/nagios/etc/htpasswd.users nagiosadmin nagiosadmin
-
 
 cd ~
 curl -L -O http://nagios-plugins.org/download/nagios-plugins-2.2.1.tar.gz
 
 ./configure --with-nagios-user=nagios --with-nagios-group=nagios --with-openssl
-
 make
-
 make install
 
+Make it executable and start Nagios:
+service apache2 restart
+service nagios start
 
 /usr/local/nagios/etc/nagios.cfg
 
@@ -59,26 +55,6 @@ define command{
 To validate the config file
 
 /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
-
-
-And this is how to fix it:
-cd /etc/init.d/
-cp /etc/init.d/skeleton /etc/init.d/nagios
-
-Now edit the Nagios file:
-vim /etc/init.d/nagios
-
-... and add the following code:
-DESC="Nagios"
-NAME=nagios
-DAEMON=/usr/local/nagios/bin/$NAME
-DAEMON_ARGS="-d /usr/local/nagios/etc/nagios.cfg"
-PIDFILE=/usr/local/nagios/var/$NAME.lock
-
-Make it executable and start Nagios:
-chmod +x /etc/init.d/nagios
-service apache2 restart
-service nagios start
 
 On Client
 
