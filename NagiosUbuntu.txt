@@ -1,16 +1,15 @@
 apt-get install mailutils to install mailbox
 
-sudo useradd nagios
-sudo groupadd nagcmd
-sudo usermod -a -G nagcmd nagios
+useradd nagios
+groupadd nagcmd
+usermod -a -G nagcmd nagios
 
-sudo apt-get install build-essential libgd2-xpm-dev openssl libssl-dev xinetd apache2-utils apache2 unzip
-apt-get install php libapache2-mod-php php-mcrypt
+apt-get install build-essential openssl libssl-dev xinetd apache2-utils apache2 unzip
+apt-get install php libapache2-mod-php
 
 
 cd ~
-curl -L -O https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.3.4.tar.gz
-
+curl -L -O https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.4.2.tar.gz
 ./configure --with-nagios-group=nagios --with-command-group=nagcmd 
 
 make all
