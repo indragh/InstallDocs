@@ -1,0 +1,437 @@
+from Anuj Sharma to Simplilearn Get Certified Get Ahead (privately):
+Hi
+from Anuj Sharma to Simplilearn Get Certified Get Ahead (privately):
+not able to join audio 
+from Anuj Sharma to Simplilearn Get Certified Get Ahead (privately):
+some issue at webex
+from Sampath Kumar K to All Participants:
+Morning Guys...
+from Anuj Sharma to All Attendees:
+Hi ALl please open ur VM meanwhile
+from Raghava.c to All Participants:
+done
+from Roy.satyaj to All Participants:
+Good Morning....
+from Roy.satyaj to All Participants:
+yes
+from Raghava.c to All Participants:
+yes
+from Ralson Raju to All Participants:
+yes
+from Sampath Kumar K to All Participants:
+yes
+from anil reddy to All Participants:
+yes
+from Imrandba2016 to All Participants:
+s
+from Ralson Raju to All Participants:
+yes
+from Md_syd01 to All Participants:
+YES
+from Md_syd01 to All Participants:
+anuj can to ask about recording please
+from Md_syd01 to All Participants:
+anuj can to ask about recording please
+from bezawada sowmya to Anuj Sharma (privately):
+bezawada.sowmya@gmail.com
+from bezawada sowmya to All Participants:
+yes
+from bezawada sowmya to All Participants:
+today I made it up 30 mts prior
+from Md_syd01 to All Participants:
+yes
+from Parashuram82 to All Participants:
+launching it
+from Parashuram82 to All Participants:
+1 min plz
+from Sampath Kumar K to All Participants:
+yes, i have logined to simplilearn VM
+from Ralson Raju to All Participants:
+yes, done
+from Nageshraoj to All Participants:
+yes 
+from Sundarbabu to Anuj Sharma (privately):
+Hi Sharma 
+from Sundarbabu to Anuj Sharma (privately):
+I am getting 
+from Sundarbabu to Anuj Sharma (privately):
+Your lab is currently being set up. Please click on labs again after some time.
+from Sundarbabu to Anuj Sharma (privately):
+I could not access 
+from Sundarbabu to Anuj Sharma (privately):
+Sure
+from Anuj Sharma to All Attendees:
+apt-get install software-properties-common
+apt-add-repository ppa:ansible/ansible
+apt-get update
+apt-get install ansible
+from Imrandba2016 to All Participants:
+done
+from Sundarbabu to Anuj Sharma (privately):
+I can connect my maching now
+from Sundarbabu to Anuj Sharma (privately):
+* machine 
+from Sundarbabu to Anuj Sharma (privately):
+Sure
+from Imrandba2016 to All Participants:
+python version it shows is 2.7.12 
+from Imrandba2016 to All Participants:
+dec4 2017
+from Imrandba2016 to All Participants:
+no
+from Imrandba2016 to All Participants:
+simplilearn
+from Imrandba2016 to All Participants:
+ok
+from Imrandba2016 to All Participants:
+2.6.3
+from Ralson Raju to All Participants:
+root@ip-172-31-7-203:~# ansible --version
+ansible 2.6.3
+from Parashuram82 to All Participants:
+done
+from Nageshraoj to All Participants:
+done
+from Surekhaparmekar to All Participants:
+Hi Anuj. I have installed ansible on google cloud system. version 1.7.2. Is is ok?
+from praveen reddy to All Participants:
+2.7.15rcl
+from Rodricks.premkumar to All Participants:
+i joined just now and i executed your commands
+from Rodricks.premkumar to All Participants:
+what needs to be done to validate
+from Surekhaparmekar to All Participants:
+no
+from Imrandba2016 to All Participants:
+check ansible --version
+from Imrandba2016 to All Participants:
+it must show ansible 2.6.3
+from Surekhaparmekar to All Participants:
+Anuj its not about not follwoing commands. 
+from Md_syd01 to All Participants:
+done
+from praveen reddy to All Participants:
+It showing 2.7.12 version after installation
+from Surekhaparmekar to All Participants:
+i missed it becuse my vm ressgtarted
+from praveen reddy to All Participants:
+yes got it
+from Rodricks.premkumar to All Participants:
+for me its showing 1.7.2 in google cloud instance
+from praveen reddy to All Participants:
+sorry
+from Surekhaparmekar to All Participants:
+can i uninstall that
+from Anuj Sharma to All Attendees:
+apt remove --purge ansible
+from Surekhaparmekar to All Participants:
+apt-get update is the first command??
+from Harikrishnan Venugopalan to All Participants:
+done
+from Sampath Kumar K to All Participants:
+i am in the version 2.6.3
+from Ganesh.uchil to All Participants:
+just joineg can u pass the history
+from Imrandba2016 to All Participants:
+
+apt-get install software-properties-common
+apt-add-repository ppa:ansible/ansible
+apt-get update
+apt-get install ansible
+from Anuj Sharma to All Attendees:
+apt-get install software-properties-common
+apt-add-repository ppa:ansible/ansible
+apt-get update
+apt-get install ansible
+from Ganesh.uchil to All Participants:
+thank you
+from Surekhaparmekar to All Participants:
+i am still getting 1.7.2
+from Rodricks.premkumar to All Participants:
+i execujted update command earlier also
+from Rodricks.premkumar to All Participants:
+but i am getting this 
+from Rodricks.premkumar to All Participants:
+: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: http://packages.cloud.google.com cloud-sdk-jessie InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6A030B21BA07F4FB
+from Surekhaparmekar to All Participants:
+i am using ggole cloud vm
+from Rodricks.premkumar to All Participants:
+ok
+from Sundarbabu to Anuj Sharma (privately):
+done 
+from Rodricks.premkumar to All Participants:
+shall i go ahead with 1.7.2 
+from Rodricks.premkumar to All Participants:
+ok
+from Rodricks.premkumar to All Participants:
+no
+from Rodricks.premkumar to All Participants:
+only for devops 
+from Sundarbabu to Anuj Sharma (privately):
+for me Python version = 2.7.12 is it ok ?
+from Rodricks.premkumar to All Participants:
+ok
+from Rodricks.premkumar to All Participants:
+i will give
+from Surekhaparmekar to All Participants:
+i am using gogogle cloud vm
+from Parashuram82 to All Participants:
+what is the issue they are facing..trying to understand
+from Surekhaparmekar to All Participants:
+35.237.237.211 my ip
+from Rodricks.premkumar to All Participants:
+35.200.234.169
+from Parashuram82 to All Participants:
+oh ok
+from Anuj Sharma to All Attendees:
+apt-get clean
+cd /var/lib/apt
+mv lists lists.old
+mkdir -p lists/partial
+apt-get clean
+apt-get update
+from Rodricks.premkumar to All Participants:
+ok shall i do it
+from Surekhaparmekar to All Participants:
+ok
+from Rodricks.premkumar to All Participants:
+yes
+from Rodricks.premkumar to All Participants:
+started
+from Ganesh.uchil to All Participants:
+y r the commands apt-get clean and the following command
+from Ganesh.uchil to All Participants:
+oh oki
+from Rodricks.premkumar to All Participants:
+same error
+from Rodricks.premkumar to All Participants:
+yes
+from Anuj Sharma to All Attendees:
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+from Rodricks.premkumar to All Participants:
+ok
+from Rodricks.premkumar to All Participants:
+after this command
+from Rodricks.premkumar to All Participants:
+apt-get update
+from Anuj Sharma to All Attendees:
+apt-get update
+from Rodricks.premkumar to All Participants:
+now i dont see the error but i am seeing pakages 404 not found error
+from Rodricks.premkumar to All Participants:
+W: Failed to fetch http://ppa.launchpad.net/ansible/ansible/ubuntu/dists/jessie/main/binary-amd64/Packages  404  Not Found
+from Rodricks.premkumar to All Participants:
+ok
+from Surekhaparmekar to All Participants:
+ok
+from Rodricks.premkumar to All Participants:
+ok
+from Surekhaparmekar to All Participants:
+ok
+from Parashuram82 to All Participants:
+why are you deleting these cntents
+from Rodricks.premkumar to All Participants:
+shall i go ahead and use 1.7.2 ansible for this training
+from Rodricks.premkumar to All Participants:
+ok
+from Rodricks.premkumar to All Participants:
+ok
+from bezawada sowmya to All Participants:
+done
+from Raghava.c to All Participants:
+did you set the inventory path ?
+from Parashuram82 to All Participants:
+provided hosts list is empty
+from praveen reddy to All Participants:
+Done
+from Parashuram82 to All Participants:
+vi hosts
+from Parashuram82 to All Participants:
+ok
+from Md_syd01 to All Participants:
+ok
+from Ralson Raju to All Participants:
+done
+from praveen reddy to Anuj Sharma (privately):
+we can enable multiple hosts under group ?
+from Sundarbabu to Presenter (privately):
+Hi 
+from praveen reddy to Anuj Sharma (privately):
+thanks
+from Sundarbabu to Presenter (privately):
+after VI hosts 
+from Sundarbabu to Presenter (privately):
+I could not see any thing 
+from Harikrishnan Venugopalan to All Participants:
+done
+from Sundarbabu to Presenter (privately):
+Checking 
+from Nageshraoj to All Participants:
+done
+from Rodricks.premkumar to All Participants:
+alpha.example.org | FAILED => SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue
+from Surekhaparmekar to All Participants:
+done
+from Rodricks.premkumar to All Participants:
+i hope that will be fixed after ssh
+from Rodricks.premkumar to All Participants:
+setup
+from Md_syd01 to All Participants:
+done
+from Parashuram82 to All Participants:
+got ping all
+from Rodricks.premkumar to All Participants:
+yes
+from Rodricks.premkumar to All Participants:
+yes
+from Parashuram82 to All Participants:
+but ping websrevers getting 
+from Parashuram82 to All Participants:
+i edited the file
+from Raghava.c to All Participants:
+Done
+from Parashuram82 to All Participants:
+Anuj
+from Parashuram82 to All Participants:
+not getting for webserves and db servers
+from Parashuram82 to All Participants:
+think not edited something correctly
+from Parashuram82 to All Participants:
+getting could not macth supplied host pattern
+from Parashuram82 to All Participants:
+ok
+from Sundarbabu to Presenter (privately):
+Hi Anuj 
+from Parashuram82 to All Participants:
+changung it now
+from Parashuram82 to All Participants:
+but can proceed
+from Sundarbabu to Presenter (privately):
+can you please share the cmd 
+from Sundarbabu to Presenter (privately):
+Yes 
+from Sundarbabu to Presenter (privately):
+Yes
+from Sundarbabu to Presenter (privately):
+got it
+from Raghava.c to All Participants:
+No Voice 
+from Anuj Sharma to All Attendees:
+voice is on
+from Raghava.c to All Participants:
+now fine
+from Roy.satyaj to All Participants:
+The authenticity of host '18.191.1.183 (18.191.1.183)' can't be established.
+ECDSA key fingerprint is SHA256:Nx3ANy4o0uaewfGRaPe8RDPbF52x3KvTd0Jt6k9h2vE
+from Roy.satyaj to All Participants:
+getting this while pinging Google.
+from Roy.satyaj to All Participants:
+my VM
+from Roy.satyaj to All Participants:
+public
+from Roy.satyaj to All Participants:
+yes
+from Roy.satyaj to All Participants:
+ok
+from bezawada sowmya to All Participants:
+done
+from Ralson Raju to All Participants:
+done
+from Surekhaparmekar to All Participants:
+doone
+from Rodricks.premkumar to All Participants:
+issue with google cloud isntance is:
+from Rodricks.premkumar to All Participants:
+we are  using derbian 
+from Roy.satyaj to All Participants:
+done
+from Rodricks.premkumar to All Participants:
+but ppa command is not supported for debian 
+from Rodricks.premkumar to All Participants:
+yes , but in simple lear user guide it was given
+from Rodricks.premkumar to All Participants:
+we will fix it
+from Rodricks.premkumar to All Participants:
+ok thanks
+from praveen reddy to All Participants:
+done
+from Surekhaparmekar to All Participants:
+Anuj please can you spare some time today to resolve my jenkins issue.
+from Harikrishnan Venugopalan to All Participants:
+done
+from Surekhaparmekar to All Participants:
+i have installed jenkins in docker i am unable to run it from docker
+from Surekhaparmekar to All Participants:
+ok thnaks
+from Rodricks.premkumar to All Participants:
+done
+from Parashuram82 to All Participants:
+clost volume for last 5 mins
+from Parashuram82 to All Participants:
+what was told
+from Parashuram82 to All Participants:
+lost*
+from Anjaneyulu C to All Participants:
+ls -alrt .ssh/ gives no such file or directory
+from Md_syd01 to All Participants:
+done
+from Anjaneyulu C to All Participants:
+yes i am into root folder
+from Anjaneyulu C to All Participants:
+yes
+from Anjaneyulu C to All Participants:
+it got success
+from Roy.satyaj to All Participants:
+is this the only way to manage inventory? if we are talking about 2000 servers then process is not efficient ...
+from Roy.satyaj to All Participants:
+ok
+from Anjaneyulu C to All Participants:
+done 
+from Parashuram82 to All Participants:
+done
+from bezawada sowmya to All Participants:
+done
+from Raghava.c to Host & Presenter:
+done
+from Raghava.c to All Participants:
+done
+from Roy.satyaj to All Participants:
+are we on break ?
+from Parashuram82 to All Participants:
+break?
+from bezawada sowmya to All Participants:
+no i think
+from Roy.satyaj to All Participants:
+ok.. 
+from Anuj Sharma to All Attendees:
+cat .ssh/id_rsa.pub >> .ssh/authorized_keys
+from Md_syd01 to All Participants:
+done
+from bezawada sowmya to All Participants:
+done
+from Nageshraoj to All Participants:
+done
+from Md_syd01 to All Participants:
+ssh localhost "date" (it displays date)
+from Arijeet.kumar.dutta to Anuj Sharma (privately):
+missed the inital 1 hour... no electricity.... not sure what you guys are doing
+from praveen reddy to All Participants:
+done
+from Arijeet.kumar.dutta to Anuj Sharma (privately):
+Can you share the chat history to me privately once... 
+from Parashuram82 to All Participants:
+got kicked out
+from Roy.satyaj to All Participants:
+done.
+from Parashuram82 to All Participants:
+logging back in
+from Md_syd01 to All Participants:
+type exit
+from Md_syd01 to All Participants:
+it close ssh
+from praveen reddy to All Participants:
+cat .ssh/id_rsa.pub >> .ssh/authorized_keys (can u plz explain this cmd again)
+from Arijeet.kumar.dutta to Anuj Sharma (privately):
+still.. when I refer to the recordings... I can co relate to the chat and try to figure out... 
+from Harikrishnan Venugopalan to All Participants:
+done
